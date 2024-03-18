@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Профиль{% endblock %}
+
+{% block content %}
+<form method="post">
+    {{ form.ref_code.label }}: {{ form.ref_code }}
+    <button type="submit">Активировать</button>
+</form>
+
+{{ user.name }}
+{% endblock %}

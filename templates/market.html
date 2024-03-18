@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}NFT Market{% endblock %}
+
+{% block content %}
+
+{% for nft in nfts %}
+    {{ nft }}
+{% endfor %}
+{% endblock %}

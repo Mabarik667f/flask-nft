@@ -1,0 +1,1 @@
+python3 /home/mamba/PycharmProjects/flask-nft/app.py

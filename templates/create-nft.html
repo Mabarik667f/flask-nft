@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Создать NFT{% endblock %}
+
+{% block content %}
+<div>NFT</div>
+<form method="post" enctype="multipart/form-data">
+    {{ form.name.label }}: {{ form.name }}
+    {{ form.describe.label }}: {{ form.describe }}
+    {{ form.img.label }}: {{ form.img }}
+    {{ form.price.label }}: {{ form.price }}
+    {{ form.amount.label }}: {{ form.amount }}
+    {{ form.collection_id.label }}: {{ form.collection_id }}
+    <button type="submit">Создать</button>
+
+</form>
+{% endblock %}
